@@ -23,7 +23,9 @@ const Navbar = () => {
         <div className="w-5/6 flex items-center justify-between mx-auto">
           <div className="flex flex-row items-center gap-3">
             <img src="/logo.png" alt="logo" />
-            <p className="text-white text-[24px] font-bold">FindTrend</p>
+            <p className="text-white md:text-[24px] text-[16px] font-bold">
+              FindTrend
+            </p>
           </div>
           <div className="gap-4 hidden lg:flex">
             {navlinks.map((item) => (
