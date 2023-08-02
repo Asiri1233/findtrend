@@ -21,7 +21,7 @@ const Cards = () => {
             <p className="text-gray-200 md:text-[24px]">Yearly</p>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col gap-12 justify-center items-center">
+        <div className="flex xl:flex-row flex-col gap-12 justify-center items-center">
           <SalesCard
             planName={"Personal"}
             description={"Special first packet for all"}
