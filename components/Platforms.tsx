@@ -13,7 +13,7 @@ const Platforms = () => {
           <img src="reddit-slider.png" alt="" />
           <img src="dribble-slider.png" alt="" className="p-8" />
           <img src="m-slider.png" alt="" />
-          <img src="mk-slider.png" alt="" />
+          <img src="wk-slider.png" alt="" />
           <img src="pinterest-slider.png" alt="" className="p-8" />
           <img src="twitter-slider.png" alt="" className="p-8" />
         </Marquee>
