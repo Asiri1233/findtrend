@@ -1,6 +1,7 @@
 import CTA from "@/components/CTA";
 import Cards from "@/components/Cards";
 import Description from "@/components/Description";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import OpenNewTab from "@/components/OpenNewTab";
@@ -38,6 +39,9 @@ const page = () => {
       </div>
       <div>
         <CTA />
+      </div>
+      <div className="bg-white">
+        <Footer />
       </div>
     </div>
   );
