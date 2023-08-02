@@ -23,9 +23,7 @@ const Navbar = () => {
         <div className="w-5/6 flex items-center justify-between mx-auto">
           <div className="flex flex-row items-center gap-3">
             <img src="/logo.png" alt="logo" />
-            <p className="text-white md:text-[24px] text-[16px] font-bold">
-              FindTrend
-            </p>
+            <p className="text-white text-[24px]  font-bold">FindTrend</p>
           </div>
           <div className="gap-4 hidden lg:flex">
             {navlinks.map((item) => (
@@ -39,9 +37,9 @@ const Navbar = () => {
               </ul>
             ))}
           </div>
-          <div className="flex gap-3 text-white items-center">
-            <button className="rounded-xl border-white border p-2">
-              Log in
+          <div className="flex md:gap-3 gap-2 text-white items-center">
+            <button className="rounded-xl hidden md:block border-white border p-2">
+              Login
             </button>
             <button className="bg-white text-black rounded-xl p-2 hover:scale-105 duration-500">
               Register

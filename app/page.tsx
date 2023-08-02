@@ -1,3 +1,5 @@
+import CTA from "@/components/CTA";
+import Cards from "@/components/Cards";
 import Description from "@/components/Description";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
@@ -30,6 +32,12 @@ const page = () => {
       </div>
       <div>
         <Tweets />
+      </div>
+      <div>
+        <Cards />
+      </div>
+      <div>
+        <CTA />
       </div>
     </div>
   );
